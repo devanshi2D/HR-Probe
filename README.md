@@ -42,10 +42,7 @@ The original Dataset contained several discrepancies and missing values, Also th
 - Employees with rating between 4 and 5 are the part of majority section of employees who left the company.
 - 37.63% of employees are the employees who got better rating still they are left the company.
      
-![performance wise attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/babfce13-c064-4de8-839f-732634e6dfb7)
-
-
-
+     ![performance wise attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/babfce13-c064-4de8-839f-732634e6dfb7)
 4.	Department Wise Attrition
 - The data highlights significant differences in attrition rates across departments. Finance has the highest attrition rate (53.57%), while HR has the lowest (25%).
 - The IT department also has a notable attrition rate (35.29%). Analysing whether this is related to job satisfaction, workload, or other factors can help in implementing retention strategies.
@@ -67,13 +64,15 @@ The original Dataset contained several discrepancies and missing values, Also th
    - Employees having satisfaction score of 5 i.e., the highest satisfaction score are least among the employee who left the company.
    - Employees who are moderately satisfied have highest attrition rates (ranging from 33.87% to 37.74%)
    - Employee with low satisfaction has less attrition (29.41%) as compared to average satisfaction.
-          ![Satisfaction scores wise Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/5ae32f14-e930-4f07-8159-eae6915b47f4)
+     
 8.	Experience wise Attrition
 - The data clearly shows that attrition rates vary significantly depending on the number of years of service. Early years of service, 2 years, exhibit higher attrition rates (66.67%), whereas attrition decreases as the number of years of service increases.
 - Employees with 2 to 6 years of service have relatively high attrition percentages (ranging from 23.08% to 66.67%).
 - Attrition rates decline for employees with 7 to 9 years of service, but there is still notable attrition at this stage.
 - The data indicates that attrition remains relatively stable for employees with 10 to 12 years of service. However, there is a drop in the number of employees with this level of experience.
-- Since attrition is high at initial years of Service, this indicates a lack of opportunities for skill development or career progression which needs special attention. 
+- Since attrition is high at initial years of Service, this indicates a lack of opportunities for skill development or career progression which needs special attention.
+  
+     ![Experiance_wise_Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/d862fdb8-479b-4a59-aa40-aac98c43987d) 
 9.	Promotion Wise Attrition
 - For employees who were not promoted (Promotion: No), the attrition percentage is 35.71%.
 - For employees who were promoted (Promotion: Yes), the attrition percentage is 26.47%.
@@ -84,6 +83,45 @@ The original Dataset contained several discrepancies and missing values, Also th
 - There is a notable correlation between the number of training hours and attrition rates. As training hours increase, attrition tends to decrease.
 - The data implies that training is playing a role in employee retention. More extensive training (15 to 30 hours) is associated with lower attrition rates.
 - In the case of 10 training hours, there is a relatively high attrition rate of 59.09%. This suggests that employees may be more likely to leave when they receive less training.
+  
+   ![Training_Hours_attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/b4c3e922-c95c-4ac0-ad61-cef1e9fb2505)
+11.	Overall Comparison
+- The "Overall" category provides a holistic view of the workforce, with an attrition rate of 33.75%. This indicates that attrition affects a significant portion of the workforce.
+- Employees who experienced attrition ("Yes Attrition") have a slightly higher average salary, suggesting that salary alone may not be a key driver of attrition.
+- On the other hand, employees with no attrition ("No Attrition") received slightly more hours of training on average.
+- The Employees who left the job category yes attrition are 54 employees. The average age is 31, the average YOS is 6, and the average salary is 71,000. The average satisfaction score is 4, they work an average of 41 hours, and receive an average of 19 hours of training.
+- The employees who did not experience attrition category No attrition. There are 106 employees in this group, making up 66.25% of the overall workforce. The average age is 30, the average years of service (YOS) is 5, and the average salary is 66,047. The average satisfaction score is 4, they work an average of 41 hours, and receive an average of 21 hours of training.
+  ![Overall_comparision](https://github.com/devanshi2D/HR-Probe/assets/40472887/98c95c7a-9ab7-4a1a-b069-6b00e310fcf0)
+### Analysis on Impacts of Training:
+1.	Training Hours and Promotions
+- There is a positive correlation between training hours and the percentage of employees promoted. For example, employees with 30 training hours have a relatively higher promotion rate of 31.25%.
+- The data suggests that training can act as a catalyst for employee promotion. Employees who receive more training may be better prepared for career advancement.
+- Employees with 25 and 30 training hours have notably higher promotion rates (40% and 31.25%, respectively). This indicates that these training hours are associated with more significant opportunities for career growth.
+      ![Training_HoursXPromotios](https://github.com/devanshi2D/HR-Probe/assets/40472887/f6405a0c-c25f-4d3a-9368-30499db084c4)
+2.	Department Wise Training Hours 
+- The HR department, with an average of 21.25 training hours, appears to invest significantly in employee development. This indicates a focus on skill enhancement and career growth.
+- The Marketing department leads with the highest average training hours, suggesting a strong commitment to training and keeping employees up-to-date with the latest industry trends.
+- Departments with higher training hours experience lower attrition rates due to the value of skill development and job satisfaction. However, Finance department is an exception here.                
+     ![DepartmentXtrainingHours](https://github.com/devanshi2D/HR-Probe/assets/40472887/9838f74a-e79d-4334-90ee-d450c87047ea)
+3.	Training Hours and Average Performance Rating
+- The data suggests an inverse relationship between the number of training hours and average performance ratings. As training hours increase, average performance ratings tend to decrease.
+- A clear trend emerges where employees who receive less training (e.g., 10 hours) tend to have higher average performance ratings (4.09), while those who receive more training (e.g., 30 hours) have slightly lower average performance ratings (3.88). This suggests that more training doesn't necessarily equate to higher performance.
+- While training is essential for skill development, it's crucial to strike a balance. Too much training may lead to decreased productivity, as employees spend more time in training rather than performing their primary job tasks.
+  ![Training_HoursXAvg performance](https://github.com/devanshi2D/HR-Probe/assets/40472887/a3e302e8-a863-4b70-9c77-33ec65c59aa8)
+## Recommendations: 					
+- Employees in the "More Than 30" age group might be seeking opportunities for career advancement. Ensuring that clear paths for growth and development exist within the organization can help retain experienced employees.
+- Scenarios with high attrition percentages may require attention to prevent employee turnover. This could involve conducting exit interviews, improving work conditions, or implementing retention strategies.
+- Examining factors such as work-life balance, job satisfaction, and organizational culture can help identify areas for improvement and reduce attrition rates.
+- The IT and Finance department also has a notable attrition rate (35.29% and 53.57%). Thus, it is important to analyse whether this is related to job satisfaction, workload, or other factors can help in implementing retention strategies.
+- Based on the varying attrition rates, consider developing specific departmental retention strategies. These could include mentoring programs, career development opportunities, or addressing workload concerns.
+- Based on the insights, it's important to develop targeted retention strategies for early-career and mid-career employees. This will help company inherit its talent within itself.
+- The data emphasizes the importance of the quality of training over the quantity. Effective, focused, and relevant training can lead to better performance outcomes even with fewer training hours.
+- Employee recognition and reward programs, along with a culture that values and acknowledges contributions, can help improve overall attrition rates and boost employee morale.
+- Consider implementing mentoring or coaching programs to support employees who have not been promoted. Such programs can provide a sense of support that may reduce attrition.
+- Strive for a balanced approach to training. Provide the right amount of training for different roles and experience levels to maximize its impact on employee retention.
+- Regularly assess the quality and relevance of training to ensure it aligns with the organization's goals and employee needs.
+- Encourage cross-functional learning and development to allow employees to explore diverse roles within the organization, potentially reducing attrition by providing growth opportunities.
+
 
 
 
