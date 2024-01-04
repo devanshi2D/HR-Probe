@@ -29,7 +29,7 @@ The original Dataset contained several discrepancies and missing values, Also th
 1.	Age Wise Attrition
    - The data suggests that the "More Than 30" age group has a higher attrition rate (39.73%) compared to the "Less or equal 30" age group (28.74%). This may indicate that employees in the "More Than 30" age group are more likely to leave the company.
    - Employees in the "More Than 30" age group might be seeking opportunities for career advancement. Ensuring that clear paths for growth and development exist within the organization can help retain experienced employees.
- ![Age_wise_Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/e0ea1fc0-cb0e-406c-8589-801cd2b54f4c)
+      ![Age_wise_Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/e0ea1fc0-cb0e-406c-8589-801cd2b54f4c)
 
 2.	Working Hours Wise Attrition
 - The data shows varying attrition rates, with some scenarios experiencing relatively high attrition (e.g., Row 6 with 59.09%) and others having lower attrition rates (e.g., Row 2 with 10%).
