@@ -64,6 +64,7 @@ The original Dataset contained several discrepancies and missing values, Also th
    - Employees having satisfaction score of 5 i.e., the highest satisfaction score are least among the employee who left the company.
    - Employees who are moderately satisfied have highest attrition rates (ranging from 33.87% to 37.74%)
    - Employee with low satisfaction has less attrition (29.41%) as compared to average satisfaction.
+     ![Satisfaction scores wise Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/ab14ecbb-1a05-4c2a-9f6c-5e8c60caa616)
      
 8.	Experience wise Attrition
 - The data clearly shows that attrition rates vary significantly depending on the number of years of service. Early years of service, 2 years, exhibit higher attrition rates (66.67%), whereas attrition decreases as the number of years of service increases.
@@ -78,6 +79,7 @@ The original Dataset contained several discrepancies and missing values, Also th
 - For employees who were promoted (Promotion: Yes), the attrition percentage is 26.47%.
 - The data suggests that employees who were promoted have a lower attrition rate (26.47%) compared to those who were not promoted (35.71%). Promotion can be seen as a factor contributing to employee retention.
 - The lower attrition rate among promoted employees may be attributed to the recognition and career progression opportunities that come with promotions. Employees who feel recognized and valued are more likely to stay with the company.
+  ![Promotion_wise_Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/00308d09-1af7-4aef-8a6f-49e0dc5c0725)
 10.	Training Hours wise Attrition
 - The data shows a range of training hours, from 10 to 30 hours, with corresponding attrition rates.
 - There is a notable correlation between the number of training hours and attrition rates. As training hours increase, attrition tends to decrease.
