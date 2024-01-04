@@ -35,29 +35,39 @@ The original Dataset contained several discrepancies and missing values, Also th
 - The data shows varying attrition rates, with some scenarios experiencing relatively high attrition (e.g., Row 6 with 59.09%) and others having lower attrition rates (e.g., Row 2 with 10%).
 - While there is no clear linear relationship between work hours and attrition, some scenarios with longer work hours have higher attrition percentages (e.g., Row 6 with 59.09%).
 - Scenarios with high attrition percentages may require attention to prevent employee turnover. This could involve conducting exit interviews, improving work conditions, or implementing retention strategies.
+     ![work hours wise Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/f47c296b-f9ab-417b-a4cb-86368ac67af0)
 
 3.	Performance Wise Attrition
 - Employees with good performance are leaving company then the employees having low performance score.
 - Employees with rating between 4 and 5 are the part of majority section of employees who left the company.
 - 37.63% of employees are the employees who got better rating still they are left the company.
+     
+![performance wise attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/babfce13-c064-4de8-839f-732634e6dfb7)
+
+
+
 4.	Department Wise Attrition
 - The data highlights significant differences in attrition rates across departments. Finance has the highest attrition rate (53.57%), while HR has the lowest (25%).
 - The IT department also has a notable attrition rate (35.29%). Analysing whether this is related to job satisfaction, workload, or other factors can help in implementing retention strategies.
-- Both Marketing and Sales have moderate attrition rates where as HR has the lowest attrition. 
+- Both Marketing and Sales have moderate attrition rates where as HR has the lowest attrition.
+         ![Department Wise Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/6e0b2ca3-21c3-4ebf-a753-78d58289b5a2)
 5.	Position wise Attrition
 - The data categorizes employees based on their positions, providing a breakdown of attrition rates for different roles within the organization.
 - Attrition rates vary significantly across different positions. For example, the "Financial Manager" position has a high attrition rate of 85.71%, while "HR Manager" has a low attrition rate of 8.33%
 - Conversely, positions like "HR Manager" and "Marketing Analyst" have low attrition rates. Identifying the factors contributing to their retention success can provide valuable insights for other roles.
 - Positions like "Data Scientist" and "Software Engineer" have moderate attrition rates. These positions often require specific skills and are in high demand, so it's crucial to ensure that employees in these roles are satisfied and engaged.
 - Develop tailored retention strategies for positions with higher attrition rates. This may involve offering career development opportunities, better compensation, or addressing workplace concerns specific to these roles.
+       ![Position wise Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/b0f97ae5-f19c-4c92-b576-cd9fe48d5271)
 6.	Salary wise Attrition
 - Employees in higher salary group has highest Attrition rate i.e., among employee with 80K to 90K salary have 43.48% attrition.
 - Employees having salary between 50K to 60K have only 26.47% which is the lowest.
 - Employees with higher salary leaving the company is very concerning situation.
+        ![Salary wise Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/676504cb-ae0d-4fd8-8333-f2de2d4e8e33)
 7.	Satisfaction scores wise Attrition
    - Employees having satisfaction score of 5 i.e., the highest satisfaction score are least among the employee who left the company.
    - Employees who are moderately satisfied have highest attrition rates (ranging from 33.87% to 37.74%)
    - Employee with low satisfaction has less attrition (29.41%) as compared to average satisfaction.
+          ![Satisfaction scores wise Attrition](https://github.com/devanshi2D/HR-Probe/assets/40472887/5ae32f14-e930-4f07-8159-eae6915b47f4)
 8.	Experience wise Attrition
 - The data clearly shows that attrition rates vary significantly depending on the number of years of service. Early years of service, 2 years, exhibit higher attrition rates (66.67%), whereas attrition decreases as the number of years of service increases.
 - Employees with 2 to 6 years of service have relatively high attrition percentages (ranging from 23.08% to 66.67%).
